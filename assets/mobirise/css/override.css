@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,700);
+
+.mbr-buttons__btn,
+.mbr-buttons__link {
+  font-weight:300;
+}
+.mbr-header__text {
+  letter-spacing: 1px;
+}
+p{
+	font-weight:200;
+}
+.mbr-navbar__brand-img{
+	height:40px;
+}
+#header1-1 H1 {
+  font-weight: 300;
+}
+#header1-1 P {
+  font-weight: 300;
+}
