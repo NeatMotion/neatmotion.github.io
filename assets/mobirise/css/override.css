@@ -1,8 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,700);
 
+body{
+  font-family: museo-sans,'Titillium Web',helvetica neue,sans-serif;
+}
 .mbr-buttons__btn,
 .mbr-buttons__link {
   font-weight:300;
+  color: #cccccc;
+}
+.mbr-buttons__btn:hover,
+.mbr-buttons__link:hover {
+  color: #ffffff;
 }
 .mbr-header__text {
   letter-spacing: 1px;
@@ -18,4 +26,56 @@ p{
 }
 #header1-1 P {
   font-weight: 300;
+}
+.btn-default, .btn-default:focus{
+  background-color:transparent;
+  border-color: #cccccc;
+  color:#eeeeee;
+}
+.btn-default:hover{
+  background-color:transparent;
+  border-color: #ffffff;
+  color:#ffffff;
+}
+.btn-group-lg>.btn, .btn-lg{
+  padding: 15px 32px;
+  font-size: 15px;
+}
+.mbr-hero__text{
+  color:#eeeeee;
+}
+.mbr-hero__subtext{
+  color:#bbbbbb;
+}
+.btn-primary{
+  background-color:transparent;
+  border-color: #1188ff;
+  color: #1188ff;
+  font-size: 14px;
+}
+.btn-primary:focus{
+  background-color:transparent;
+  border-color: #1188ff;
+  color: #1188ff;
+  font-size: 14px;
+}
+.btn-primary:hover:active:focus{
+  border-color: #44bbff;
+  color: #44bbff;
+}
+.btn-primary:hover{
+  background-color:transparent;
+  border-color: #44bbff;
+  color: #44bbff;
+}
+.btn-primary:focus:hover{
+  background-color:transparent;
+  border-color: #44bbff;
+  color: #44bbff;
+}
+.btn-info, .btn-info:focus{
+  background-color:transparent;
+  border-color: #5cb85c;
+  color: #5cb85c;
+  font-size: 14px;
 }

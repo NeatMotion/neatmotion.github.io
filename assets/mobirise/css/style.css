@@ -44,7 +44,7 @@ html {
 }
 .mbr-navbar__brand-link:after,
 .mbr-navbar__brand-img {
-  height: 74px;
+  max-height: 74px;
 }
 .mbr-navbar:before,
 .mbr-navbar__container {
