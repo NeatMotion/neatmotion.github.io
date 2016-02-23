@@ -1,7 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100|Open+Sans:300|Lato:300);
 
 body{
-  font-family: museo-sans,'Titillium Web',helvetica neue,sans-serif;
+  font-family: 'Open Sans', museo-sans,'Titillium Web',helvetica neue,sans-serif;
+}
+
+a.slim{
+  color:#08c;
+  font-size: 16px;
+  margin-right: 22px;
+}
+.mbr-navbar--stuck .mbr-navbar__section, .mbr-navbar--relative .mbr-navbar__section{
+  background: #222;
 }
 .mbr-buttons__btn,
 .mbr-buttons__link {
@@ -14,6 +24,7 @@ body{
 }
 .mbr-header__text {
   letter-spacing: 1px;
+  font-weight: normal;
 }
 p{
 	font-weight:200;
@@ -47,35 +58,63 @@ p{
 .mbr-hero__subtext{
   color:#bbbbbb;
 }
-.btn-primary{
+
+.btn-primary, .btn-primary:focus{
   background-color:transparent;
-  border-color: #1188ff;
-  color: #1188ff;
+  border-color: #08c;
+  color: #08c;
   font-size: 14px;
 }
-.btn-primary:focus{
-  background-color:transparent;
-  border-color: #1188ff;
-  color: #1188ff;
-  font-size: 14px;
-}
-.btn-primary:hover:active:focus{
-  border-color: #44bbff;
-  color: #44bbff;
-}
-.btn-primary:hover{
+.btn-primary:hover, .btn-primary:focus:hover, .btn-primary:hover:active:focus{
   background-color:transparent;
   border-color: #44bbff;
   color: #44bbff;
 }
-.btn-primary:focus:hover{
+
+.btn-success, .btn-success:focus{
   background-color:transparent;
-  border-color: #44bbff;
-  color: #44bbff;
-}
-.btn-info, .btn-info:focus{
-  background-color:transparent;
-  border-color: #5cb85c;
-  color: #5cb85c;
+  border-color: #4CC148;
+  color: #4CC148;
   font-size: 14px;
+}
+.btn-success:hover, .btn-success:focus:hover, .btn-success:hover:active:focus{
+  background-color:transparent;
+  border-color: #6cc86c;
+  color: #6cc86c;
+}
+
+.btn-warning, .btn-warning:focus{
+  background-color:transparent;
+  border-color: #f4a827;
+  color: #f4a827;
+  font-size: 14px;
+}
+.btn-warning:hover, .btn-warning:focus:hover, .btn-warning:hover:active:focus{
+  background-color:transparent;
+  border-color: #ffc877;
+  color: #ffc877;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.platform{
+  color: #ccc;
+  margin-left: 15px;
+}
+.platform:hover{
+  color: #333;
+}
+
+.social{
+  color: #aaa;
+  margin-right: 25px;
+}
+.social:hover{
+  color: #333;
+}
+.mbr-header__text{
+  display: inline;
 }
